@@ -37,7 +37,7 @@ Figure 1.4: HoloLens paring pin
 
 To test this issue, a script was developed to repeatedly make pairing requests to the API, ignoring any possible errors that may occur until this process is manually stopped by the attacker (see Figure 1.5 and Appendix A). This script was developed for Windows PowerShell, as it is possible to schedule the script to run every time the computer is powered on. In this way, the attacker can install the script on the target machines, which are usually connected to the same network as the HoloLens. The attack runs in the background without users noticing, rendering the equipment unusable. Powershell provides the ”New-ScheduledTask” command, which allows the creation of a trigger to run the malicious script whenever the computer is switched on.  
 
-![Alt text](Images/powershell.jpg)
+![Alt text](Images/powershell.JPG)
 Figure 1.5: PowerShell script
 
 Whenever a pairing request is made, the pairing Pin is overlaid onto the user’s view. As a result of tests conducted with the previous script, it was observed that continuously sending requests causes the HoloLens to constantly overlay new Pins on the user’s view, preventing them from performing any other tasks. The user has the option to open a menu over this Pin, however, since the headsets are constantly receiving new requests, the user doesn’t have time to perform any operations in this menu. Over time, the glasses start to glitch, and the HoloLens struggle to understand the gestures or commands spoken by the
