@@ -1,3 +1,6 @@
+# Authors
+Tânia Silva, António Pinto, Sara Paiva and Pedro Pinto
+
 # Denial of Service on HoloLens via Device Portal functionalities
 
 A Denial of Service (DoS) attack aims to overload a target system in such a way that it gradually becomes unable to respond to all the requests sent to it. This way, a legitimate user loses access to a service, which, depending on the application domain, can be crucial to their process. For this issue, we analyzed the HoloLens headsets that provide a Mixed Reality (MR)
