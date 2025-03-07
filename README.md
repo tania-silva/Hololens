@@ -1,5 +1,5 @@
 # Authors
-Tânia Silva, António Pinto, Sara Paiva and Pedro Pinto
+Tânia Silva, António Pinto, Pedro Pinto and Sara Paiva
 
 # Denial of Service on HoloLens via Device Portal functionalities
 
